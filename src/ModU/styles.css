@@ -1,0 +1,143 @@
+:root {
+  --primitive\/space-1: 4;
+  --primitive\/space-2: 8;
+  --primitive\/space-3: 12;
+  --primitive\/space-4: 16;
+  --primitive\/space-5: 20;
+  --primitive\/space-6: 24;
+  --primitive\/radius-sm: 8;
+  --primitive\/radius-md: 12;
+  --primitive\/radius-lg: 16;
+  --primitive\/radius-full: 999;
+  --body\/text-xs\/size: 12;
+  --body\/text-xs\/lineheight: 150;
+  --body\/text-sm\/size: 14;
+  --body\/text-sm\/lineheight: 150;
+  --body\/text-md\/size: 16;
+  --body\/text-md\/lineheight: 150;
+  --body\/text-lg\/size: 18;
+  --body\/text-lg\/lineheight: 130;
+  --body\/text-xl\/size: 24;
+  --body\/text-xl\/lineheight: 130;
+  --primitive\/gray\/white: #fff;
+  --primitive\/gray\/50: #f9fafb;
+  --primitive\/gray\/100: #f2f4f6;
+  --primitive\/gray\/200: #e5e8eb;
+  --primitive\/gray\/600: #667180;
+  --primitive\/gray\/700: #5b6573;
+  --primitive\/gray\/900: #191f28;
+  --primitive\/slate\/black: #000;
+  --primitive\/slate\/900: #0f1420;
+  --primitive\/slate\/800: #141a28;
+  --primitive\/slate\/750: #1a2130;
+  --primitive\/slate\/700: #1d2a44;
+  --primitive\/slate\/650: #212a3d;
+  --primitive\/slate\/600: #2a3345;
+  --primitive\/slate\/500: #5c6878;
+  --primitive\/slate\/400: #7e8aa0;
+  --primitive\/slate\/300: #8fa0b8;
+  --primitive\/slate\/200: #9aa5b5;
+  --primitive\/slate\/150: #b7c0cd;
+  --primitive\/slate\/100: #dfe5ee;
+  --primitive\/blue\/50: #e8f3ff;
+  --primitive\/blue\/300: #8fb4ff;
+  --primitive\/blue\/600: #1b64da;
+  --primitive\/red\/50: #fdedee;
+  --primitive\/red\/600: #cc2b3d;
+  --primitive\/green\/50: #e6f6ee;
+  --primitive\/green\/600: #0e7a45;
+  --primitive\/amber\/50: #fff4e5;
+  --primitive\/amber\/500: #ff9500;
+  --primitive\/amber\/800: #8f5500;
+  --primitive\/amber\/900: #8a5a00;
+  --primitive\/alpha\/dim: #191f288c;
+  --primitive\/alpha\/overlay: #141923f0;
+  --semantic\/bg\/default: var(--primitive\/gray\/100);
+  --semantic\/bg\/dark: var(--primitive\/slate\/900);
+  --semantic\/surface\/default: var(--primitive\/gray\/white);
+  --semantic\/surface\/dark: var(--primitive\/slate\/750);
+  --semantic\/surface\/sub\/default: var(--primitive\/gray\/50);
+  --semantic\/surface\/sub\/dark: var(--primitive\/slate\/800);
+  --semantic\/surface\/hover\/dark: var(
+    --primitive\/slate\/650
+  );
+  --semantic\/surface\/active\/dark: var(
+    --primitive\/slate\/700
+  );
+  --semantic\/line\/default: var(--primitive\/gray\/200);
+  --semantic\/line\/dark: var(--primitive\/slate\/600);
+  --semantic\/text\/default: var(--primitive\/gray\/900);
+  --semantic\/text\/dark: var(--primitive\/slate\/100);
+  --semantic\/text\/sub\/default: var(--primitive\/gray\/700);
+  --semantic\/text\/sub\/dark: var(--primitive\/slate\/150);
+  --semantic\/text\/weak\/default: var(--primitive\/gray\/600);
+  --semantic\/text\/weak\/dark: var(--primitive\/slate\/300);
+  --semantic\/text\/inverse: var(--primitive\/gray\/white);
+  --semantic\/text\/tagline: var(--primitive\/slate\/200);
+  --semantic\/text\/label\/dark: var(--primitive\/slate\/400);
+  --semantic\/text\/muted\/dark: var(--primitive\/slate\/500);
+  --semantic\/primary\/default: var(--primitive\/blue\/600);
+  --semantic\/primary\/weak: var(--primitive\/blue\/50);
+  --semantic\/primary\/dark: var(--primitive\/blue\/300);
+  --semantic\/danger\/default: var(--primitive\/red\/600);
+  --semantic\/danger\/weak: var(--primitive\/red\/50);
+  --semantic\/success\/default: var(--primitive\/green\/600);
+  --semantic\/success\/weak: var(--primitive\/green\/50);
+  --semantic\/warn\/default: var(--primitive\/amber\/500);
+  --semantic\/warn\/text\/default: var(--primitive\/amber\/800);
+  --semantic\/warn\/weak: var(--primitive\/amber\/50);
+  --semantic\/warn\/text\/strong: var(--primitive\/amber\/900);
+  --primitive\/user\/1: #3182f6;
+  --primitive\/user\/2: #7048e8;
+  --primitive\/user\/3: #0ca678;
+  --primitive\/user\/4: #f59f00;
+  --primitive\/user\/5: #e64980;
+  --primitive\/user\/6: #495057;
+  --semantic\/dim: var(--primitive\/alpha\/dim);
+  --semantic\/overlay: var(--primitive\/alpha\/overlay);
+  --semantic\/black: var(--primitive\/slate\/black);
+  --semantic\/white: var(--primitive\/gray\/white);
+}
+
+.body-text-xs {
+  font-family: "Pretendard Variable";
+  font-style: "Regular";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+
+.body-text-sm {
+  font-family: "Pretendard Variable";
+  font-style: "Regular";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.body-text-md {
+  font-family: "Pretendard Variable";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.body-text-lg {
+  font-family: "Pretendard Variable";
+  font-style: "Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2999999523162842;
+  letter-spacing: 0px;
+}
+
+.body-text-xl {
+  font-family: "Pretendard Variable";
+  font-style: "Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2999999523162842;
+  letter-spacing: 0px;
+}
