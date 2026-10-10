@@ -54,7 +54,7 @@ export default function ChatRoom() {
       <header className="chat__header">
         <IconBack />
         <div className="chat__title">
-          <b>우리팀</b> <span className="chat__count">6</span>
+          <b>구름10회차</b> <span className="chat__count">6</span>
         </div>
         <button type="button" className="chat__settings" aria-label="채팅방 설정">
           <IconSettings />
