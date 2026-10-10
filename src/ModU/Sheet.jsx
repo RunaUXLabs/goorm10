@@ -53,8 +53,9 @@ function ComposeSheet() {
       <div className="sheet__body">
       <div className="sheet__section">
         <h3 className="sheet__title">회의 만들기</h3>
-        <Notice tone="neutral">
-          채팅방 대화와 팀 캘린더를 읽고 미리 채워뒀어요. <b>값을 누르면 바꿀 수 있어요.</b>
+        <Notice tone="warn">
+          채팅방 대화와 팀 캘린더를 읽고 미리 채워뒀어요.<br />
+          <b>값을 누르면 바꿀 수 있어요.</b>
         </Notice>
       </div>
 
