@@ -31,7 +31,7 @@ export function ComposeCard() {
   return (
     <BubbleShell title={`${state.meeting.title} · ${state.meeting.duration}`} subtitle="조건을 정하면 시스템이 시간을 찾아 잠정 확정해요">
       <Notice tone="neutral">
-        팀원들의 캘린더와 회의룸 예약 상황을 읽어 모두가 비는 시간을 먼저 골라요. 투표는 필요할 때만 열려요.
+        디자이너 10회차 팀원들의 캘린더와 회의룸 예약 상황을 읽어 모두가 비는 시간을 먼저 골라요. 투표는 필요할 때만 열려요.
       </Notice>
       <div className="bubble__actions">
         <Button variant="primary" full onClick={() => dispatch({ type: 'SHEET', open: true })}>
