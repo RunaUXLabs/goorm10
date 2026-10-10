@@ -41,7 +41,7 @@ export default function SlotCard({
           <span className="slotcard__time">
             {slot.time} · {slot.room}
           </span>
-          {preset && <span className="slotcard__presetlabel">캘린더 기준 제안 — 확인해주세요</span>}
+          {preset && <span className="slotcard__presetlabel">달력 확인해주삼</span>}
         </div>
         <SegButton value={myValue} onChange={onChange} />
       </div>
@@ -67,8 +67,8 @@ export default function SlotCard({
         </span>
       </div>
       <div className="slotcard__meta">
-        {myValue === 'ok' && <Chip tone="success">가능해요</Chip>}
-        {myValue === 'hard' && <Chip tone="danger">어려워요</Chip>}
+        {myValue === 'ok' && <Chip tone="success">쌉가능</Chip>}
+        {myValue === 'hard' && <Chip tone="danger">불가능</Chip>}
       </div>
       <span className="slotcard__gauge" aria-hidden="true">
         <i style={{ width: `${total ? Math.round(((okCount || 0) / total) * 100) : 0}%` }} />
