@@ -18,7 +18,7 @@ export default function JudgeBar() {
     <div className="judge">
       <div className="judge__desc">
         <b>{stage.title}</b><br />{done ? '회의가 확정됐어요. 리셋 후 다른 선택을 해보세요.' : stage.desc}
-        <span className="judge__principle">직접 응답한 팀원은 각자의 기본 행동 대신 그 선택대로 움직여요.</span>
+        <span className="judge__principle">직접 응답한 10회차 팀원은 각자의 기본 행동 대신 그 선택대로 움직여요.</span>
       </div>
 
       <div className="judge__row">
